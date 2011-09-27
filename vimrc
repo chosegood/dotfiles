@@ -1,5 +1,4 @@
 set nocompatible          " We're running Vim, not Vi!
-filetype plugin indent on
 
 set backspace=2
 set smarttab
@@ -23,5 +22,7 @@ colorscheme desert256
 "colorscheme ir_black
 "colorscheme zenburn
 
-
+call pathogen#infect()
 syntax on
+filetype plugin indent on
+
