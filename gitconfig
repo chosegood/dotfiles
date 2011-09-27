@@ -1,0 +1,12 @@
+[user]
+	name = Chris Hosegood
+        email = chris.hosegood@gmail.com
+
+[color]
+        ui = auto
+        diff = auto
+        status = auto
+        branch = auto
+        interactive = auto
+        grep = auto
+
