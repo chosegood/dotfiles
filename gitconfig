@@ -1,7 +1,8 @@
 [user]
 	name = Chris Hosegood
         email = chris.hosegood@gmail.com
-
+[github]
+        user = chosegood
 [color]
         ui = auto
         diff = auto
@@ -9,4 +10,3 @@
         branch = auto
         interactive = auto
         grep = auto
-
