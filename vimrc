@@ -18,9 +18,7 @@ set ignorecase
 
 set showmatch
 
-colorscheme desert256
-"colorscheme ir_black
-"colorscheme zenburn
+colorscheme vividchalk
 
 call pathogen#infect()
 syntax on
