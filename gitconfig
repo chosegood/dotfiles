@@ -2,7 +2,9 @@
 	name = Chris Hosegood
         email = chris.hosegood@gmail.com
 [github]
-        user = chosegood
+  user = chosegood
+[credential]
+          helper = cache --timeout=3600
 [color]
         ui = auto
         diff = auto
