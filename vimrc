@@ -18,6 +18,8 @@ set ignorecase
 
 set showmatch
 
+:nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
+
 colorscheme vividchalk
 "colorscheme desert256
 "colorscheme ir_black
