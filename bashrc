@@ -1,3 +1,7 @@
+#Set vim as default editor
+#export VISUAL=vim
+export EDITOR=vim
+
 # Git tab completion
 source ~/projects/github/git/contrib/completion/git-completion.bash
 
