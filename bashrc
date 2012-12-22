@@ -4,6 +4,7 @@ export EDITOR=vim
 
 # Git tab completion
 source ~/projects/github/git/contrib/completion/git-completion.bash
+source ~/projects/github/git/contrib/completion/git-prompt.sh
 
 # Show branch in status line
 PS1='\[\033[0;35m\][\t]\[\033[0;32m\][\w$(__git_ps1 " (%s)")]$\[\033[0m\] '
