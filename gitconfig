@@ -1,6 +1,6 @@
 [user]
 	name = Chris Hosegood
-        email = chris.hosegood@corelogic.co.uk
+	email = chris.hosegood@corelogic.co.uk
 [github]
   user = chosegood
 [credential]
@@ -16,4 +16,5 @@
           bs = branch -a
           lg = log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
           files = show --pretty="format:" --name-only
+          st = status
 
