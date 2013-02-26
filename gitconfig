@@ -18,3 +18,5 @@
           files = show --pretty="format:" --name-only
           st = status
 
+[core]
+	pager = less -r
