@@ -15,6 +15,7 @@
 [alias]
           bs = branch -a
           lg = log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+          glog = log --all --graph --color --decorate --oneline
           files = show --pretty="format:" --name-only
           st = status
 
