@@ -10,6 +10,7 @@ ln -s ~/projects/github/dotfiles/gitignore ~/.gitignore
 ln -s ~/projects/github/dotfiles/gitconfig ~/.gitconfig  
 ln -s ~/projects/github/dotfiles/vimrc ~/.vimrc  
 ln -s ~/projects/github/dotfiles/vim ~/.vim  
+ln -s ~/projects/github/dotfiles/Preferences.sublime-settings ~/.config/sublime-text-2/Packages/User/Preferences.sublime-settings  
 
 cd  
 touch .bash_profile  
