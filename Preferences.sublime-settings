@@ -1,10 +1,8 @@
 {
-	"auto_upgrade_last_run": null,
-	"installed_packages":
-	[
-		"Indent XML",
-		"Package Control",
-		"SublimeLinter",
-		"ZenCoding"
-	]
+	    // Set to true to insert spaces when tab is pressed
+    "translate_tabs_to_spaces": true,
+
+    // Set to "none" to turn off drawing white space, "selection" to draw only the
+    // white space within the selection, and "all" to draw all white space
+    "draw_white_space": "all"
 }
