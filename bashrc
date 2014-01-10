@@ -7,10 +7,7 @@ source ~/projects/github/git/contrib/completion/git-completion.bash
 source ~/projects/github/git/contrib/completion/git-prompt.sh
 
 # Show branch in status line
-GIT_PS1_SHOWUNTRACKEDFILES=true
 GIT_PS1_SHOWDIRTYSTATE=true
-#GIT_PS1_SHOWSTASHSTATE=true
-PS1='\[\033[0;35m\][\t]\[\033[0;32m\][\w$(__git_ps1 " (%s)")]$\[\033[0m\] '
-export PROMPT_COMMAND='echo -ne "\033]0;${PWD/#$HOME/~}\007"'
+export PS1='\[\033[1;37m\][\t]\[\033[01;32m\]\u@\h\[\033[01;34m\] \w\[\033[01;33m\]$(__git_ps1)\[\033[01;34m\] \$\[\033[00m\] '
 
 #[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
