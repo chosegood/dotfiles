@@ -6,7 +6,7 @@
 [credential]
           helper = cache --timeout=3600
 [color]
-        ui = auto
+	ui = on
         diff = auto
         status = auto
         branch = auto
@@ -20,6 +20,7 @@
           st = status
 [core]
 	pager = less -r
+	autocrlf = input
 [filter "media"]
 	clean = git-media-clean %f
 	smudge = git-media-smudge %f
