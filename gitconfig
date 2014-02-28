@@ -1,6 +1,6 @@
 [user]
 	name = Chris Hosegood
-	email = chris.hosegood@corelogic.co.uk
+	email = chris.hosegood@gmail.com
 [github]
   user = chosegood
 [credential]
@@ -18,6 +18,11 @@
           glog = log --all --graph --color --decorate --oneline
           files = show --pretty="format:" --name-only
           st = status
-
 [core]
 	pager = less -r
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[push]
+	default = simple
+
