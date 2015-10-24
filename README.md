@@ -9,6 +9,3 @@ ln -s ~/projects/github/dotfiles/gitconfig ~/.gitconfig
 ln -s ~/projects/github/dotfiles/vimrc ~/.vimrc  
 ln -s ~/projects/github/dotfiles/vim ~/.vim  
 
-#cd ~/  
-#touch .bash_profile  
-#echo source ~/projects/github/dotfiles/bashrc >> .bash_profile  
