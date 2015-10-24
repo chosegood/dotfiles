@@ -1,7 +1,7 @@
 My Dotfiles
 ===========
 
-mkdir projects/github/ && cd projects/github/  
+mkdir -p ~/projects/github/ && cd ~/projects/github/  
 
 git clone https://github.com/git/git.git  
 
