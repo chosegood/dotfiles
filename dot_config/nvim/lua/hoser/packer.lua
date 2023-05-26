@@ -14,9 +14,9 @@ return require('packer').startup(function(use)
   }
 
   use({
-	  'folke/tokyonight.nvim',
+	  'dracula/vim',
 	  config = function()
-		  vim.cmd('colorscheme tokyonight')
+		  vim.cmd('colorscheme dracula')
 	  end
   })
 
@@ -27,6 +27,7 @@ return require('packer').startup(function(use)
 				ts_update()
 			end,
   }
+
   use("tpope/vim-fugitive")
 
 end)
