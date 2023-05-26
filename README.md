@@ -1,4 +1,4 @@
 My Dotfiles
 ===========
 
-paru -S chezmoi zsh neovim nvim-packer-git alacritty
+paru -S chezmoi zsh neovim nvim-packer-git alacritty xsel
