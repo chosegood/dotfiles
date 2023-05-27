@@ -1,17 +1,22 @@
+##Load more completions (before compinit)
+#fpath=($DOTFILES/zsh/plugins/zsh-completions/src $fpath)
+#zmodload zsh/complist
+
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.cache/zsh/histfile
 HISTSIZE=10000
 SAVEHIST=10000
-setopt autocd extendedglob notify
+setopt autocd extendedglob notify correctall
 bindkey -e
-# End of lines configured by zsh-newuser-install
-# The following lines were added by compinstall
-zstyle :compinstall filename '/home/chris/.zshrc'
 
-autoload -Uz compinit
-compinit
-# End of lines added by compinstall
-#
+zstyle :compinstall filename '/home/chris/.zshrc'
+zstyle ':completion:*' menu select
+
+autoload -Uz compinit; compinit
+_comp_options+=(globdots) #hidden files
+
+setopt AUTO_LIST MENU_COMPLETE COMPLETE_IN_WORD
+
 source ~/.env
 
 #Load zsh-syntax-highlighting
