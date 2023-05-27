@@ -2,22 +2,25 @@
 #fpath=($DOTFILES/zsh/plugins/zsh-completions/src $fpath)
 #zmodload zsh/complist
 
-# Lines configured by zsh-newuser-install
 HISTFILE=~/.cache/zsh/histfile
 HISTSIZE=10000
 SAVEHIST=10000
-setopt autocd extendedglob notify correctall
-bindkey -e
 
-zstyle :compinstall filename '/home/chris/.zshrc'
-zstyle ':completion:*' menu select
+setopt autocd extendedglob notify correctall
+setopt AUTO_LIST MENU_COMPLETE COMPLETE_IN_WORD
+bindkey -e
 
 autoload -Uz compinit; compinit
 _comp_options+=(globdots) #hidden files
 
-setopt AUTO_LIST MENU_COMPLETE COMPLETE_IN_WORD
+zstyle :compinstall filename '/home/chris/.zshrc'
+zstyle ':completion:*' menu select
+
+
 
 source ~/.env
 
 #Load zsh-syntax-highlighting
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
+
+eval "$(starship init zsh)"
