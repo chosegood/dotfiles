@@ -14,28 +14,49 @@ local packer_bootstrap = ensure_packer()
 return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
 
+  -- colorscheme
+  use({
+    -- 'navarasu/onedark.nvim'
+    -- 'folke/tokyonight.nvim'
+    -- 'arcticicestudio/nord-vim'
+    -- 'dracula/vim'
+    'EdenEast/nightfox.nvim'
+  })
+
+  -- autopair plugin
+  use{
+	  "windwp/nvim-autopairs",
+    config = function() require("nvim-autopairs").setup {} end
+  }
+
+  -- Fuzzy Finder (files, lsp, etc)
   use {
-    'nvim-telescope/telescope.nvim', tag = '0.1.0',
-    -- or                            , branch = '0.1.x',
+    'nvim-telescope/telescope.nvim', tag = '0.1.1',
     requires = { {'nvim-lua/plenary.nvim'} }
   }
 
-  use({
-    'dracula/vim',
-    config = function()
-      vim.cmd('colorscheme dracula')
-    end
-  })
-
+  -- 
   use {
     'nvim-treesitter/nvim-treesitter',
     run = function()
-      local ts_update = require('nvim-treesitter.install').update({ with_sync = true })
-      ts_update()
+        local ts_update = require('nvim-treesitter.install').update({ with_sync = true })
+        ts_update()
     end,
   }
 
-  use("tpope/vim-fugitive")
+  -- lsp
+  use{
+    "williamboman/mason.nvim",
+    "williamboman/mason-lspconfig.nvim",
+    "neovim/nvim-lspconfig",
+  }
+
+  -- status bar
+  use {
+    'nvim-lualine/lualine.nvim',
+    requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+  }
+
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

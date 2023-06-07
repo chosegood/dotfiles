@@ -1,1 +1,1 @@
-require("hoser")
+require('hoser')
