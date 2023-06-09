@@ -1,5 +1,5 @@
 # TokyoNight Alacritty Colors
-# https://github.com/folke/tokyonight.nvim/blob/main/extras/alacritty_tokyonight_night.yml
+# https://github.com/folke/tokyonight.nvim/blob/main/extras/alacritty/tokyonight_night.yml
 colors:
   name: TokyoNight Night
   author: Folke
