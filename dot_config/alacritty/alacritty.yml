@@ -10,7 +10,8 @@
 # to the user's home directory starting with `~/`.
 import:
 #  - ~/.config/alacritty/nord.yml
- - ~/.config/alacritty/dracula.yml
+#  - ~/.config/alacritty/dracula.yml
+ - ~/.config/alacritty/tokyo_night.yml
 
  - ~/.config/alacritty/source_code_pro.yml
 #  - ~/.config/alacritty/hack.yml
