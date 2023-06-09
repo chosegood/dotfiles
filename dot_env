@@ -1,12 +1,17 @@
 alias pbcopy='xsel --clipboard --input'
 alias pbpaste='xsel --clipboard --output'
 
+alias vi='nvim'
 alias vim='nvim'
-alias cat='bat'
 
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
 
 alias ls='ls --color=auto'
 alias ll='ls -ahl --color=auto'
 
+alias diff="colordiff"
+alias cat='bat'
+
+alias df='df -h'

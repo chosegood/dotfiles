@@ -6,17 +6,27 @@ HISTFILE=~/.cache/zsh/histfile
 HISTSIZE=10000
 SAVEHIST=10000
 
-setopt autocd extendedglob notify correctall
-setopt AUTO_LIST MENU_COMPLETE COMPLETE_IN_WORD
-bindkey -e
+setopt APPEND_HISTORY               # add history
+setopt HIST_EXPIRE_DUPS_FIRST       # expire duplicate entires first
+setopt INC_APPEND_HISTORY           # adds history incrementally
+setopt SHARE_HISTORY                # share history across sessions
 
-autoload -Uz compinit; compinit
-_comp_options+=(globdots) #hidden files
+setopt ALWAYS_TO_END                # Move custor to the end of a completed word
+setopt AUTO_LIST                    # Automatically list choices on ambiguous completion
+setopt AUTO_MENU                    # Show completion menu on a successive tag press
+setopt AUTO_PARAM_SLASH             # If completed parameter is a directory, add a trailing slash
+setopt COMPLETE_IN_WORD             # Complete from both ends of a word
+setopt NO_BEEP                      # Turn off the *@#= beeping
+setopt PATH_DIRS                    # Perform path search even on command names with slashes
+unsetopt MENU_COMPLETE              # Do not autoselect the first completion entry
+
+bindkey -e
 
 zstyle :compinstall filename '/home/chris/.zshrc'
 zstyle ':completion:*' menu select
 
-
+autoload -Uz compinit; compinit
+_comp_options+=(globdots) #hidden files
 
 source ~/.env
 
