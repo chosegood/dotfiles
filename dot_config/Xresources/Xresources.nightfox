@@ -1,3 +1,5 @@
+Xft.dpi: 192
+
 ! Nightfox colors for Xresources
 ! Style: nightfox
 ! Upstream: https://github.com/edeneast/nightfox.nvim/raw/main/extra/nightfox/nightfox_xresources.Xresources
