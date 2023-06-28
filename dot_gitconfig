@@ -1,0 +1,5 @@
+[user]
+	name = Chris Hosegood
+	email = chris.hosegood@gmail.com
+[pull]
+	rebase = true
