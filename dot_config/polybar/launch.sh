@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-#
 polybar-msg cmd quit
 
 echo "---" | tee -a /tmp/polybar-primary.log /tmp/polybar-secondary.log
