@@ -8,4 +8,4 @@ configuration {
     sidebar-mode:   false;
 }
 
-@theme "/usr/share/rofi/themes/glue_pro_blue.rasi"
+@theme "~/.config/rofi/nord.rasi"
