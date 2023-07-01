@@ -1,2 +1,11 @@
-@import "~/.config/rofi/nord"
 
+configuration {
+    font:           "JetBrainsMono Nerd Font 24";
+    show-icons:     true;
+    scroll-method:  0;
+    display-drun:   "";
+    disable-hisory: false;
+    sidebar-mode:   false;
+}
+
+@theme "/usr/share/rofi/themes/glue_pro_blue.rasi"

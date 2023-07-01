@@ -1,7 +1,6 @@
-/*Dracula theme based on the Purple official rofi theme*/
+/*Nord theme based on the Purple official rofi theme*/
 
 * {
-    font: "JetBrainsMono Nerd Font 12";
     foreground: #E5E9F0;
     background-color: #2E3440;
     active-background: #88C0D0;
@@ -14,11 +13,6 @@
     bordercolor: @active-background;
 }
 
-configuration {
-    show-icons:      true;
-    display-drun:    "";
-    disable-history: false;
-}
 
 #window {
     background-color: @background-color;
