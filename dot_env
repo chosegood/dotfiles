@@ -17,4 +17,5 @@ alias cat='bat'
 alias df='df -h'
 
 [[ ":$PATH:" != *":$HOME/.local/bin:"* ]] && PATH="$HOME/.local/bin:${PATH}"
+[[ ":$PATH:" != *":$HOME/.config/rofi/scripts:"* ]] && PATH="$HOME/.config/rofi/scripts:${PATH}"
 
