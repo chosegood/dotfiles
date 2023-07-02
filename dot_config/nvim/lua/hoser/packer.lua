@@ -18,9 +18,9 @@ return require('packer').startup(function(use)
   use({
     -- 'navarasu/onedark.nvim'
     -- 'folke/tokyonight.nvim'
-    -- 'arcticicestudio/nord-vim'
+    'arcticicestudio/nord-vim'
     -- 'dracula/vim'
-    'EdenEast/nightfox.nvim'
+    -- 'EdenEast/nightfox.nvim'
   })
 
   -- autopair plugin
