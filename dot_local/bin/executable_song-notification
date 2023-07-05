@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+song=$(playerctl metadata --format "Title: {{title}}\nArtist: {{artist}}\nAlbum: {{album}}")
+notify-send --hint=string:x-dunst-stack-tag:spotify --icon=~/.config/spotifyd/spotify.png "Spotify" "$song"
