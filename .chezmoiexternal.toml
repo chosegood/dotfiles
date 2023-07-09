@@ -3,7 +3,3 @@
   url = "https://github.com/EliverLara/Nordic.git"
   refreshPeriod = "168h"
 
-[".local/share/rofi"]
-  type = "git-repo"
-  url = "https://github.com/adi1090x/rofi.git"
-  refreshPeriod = "168h"
