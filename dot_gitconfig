@@ -3,3 +3,5 @@
 	email = chris.hosegood@gmail.com
 [pull]
 	rebase = true
+[core]
+	editor = nvim
