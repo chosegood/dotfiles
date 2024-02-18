@@ -16,6 +16,7 @@ paru -S \
   chezmoi \
   colordiff \
   fzf \
+  less \
   neovim \
   nodejs \
   npm \
