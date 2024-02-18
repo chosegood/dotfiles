@@ -30,6 +30,7 @@ paru -S \
   ttf-hack-nerd \
   ttf-jetbrains-mono-nerd \
   ttf-sourcecodepro-nerd \
+  unzip \
   xsel \
   zsh \
   zsh-syntax-highlighting
