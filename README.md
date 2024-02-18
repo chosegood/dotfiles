@@ -12,8 +12,10 @@ makepkg -si
 paru -S bat chezmoi neovim nodejs npm alacritty colordiff xsel zsh \
 zsh-syntax-highlighting starship awesome-terminal-fonts ttf-firacode-nerd \
 ttf-hack-nerd ttf-jetbrains-mono-nerd ttf-sourcecodepro-nerd ttf-dejavu-nerd \
-ttf-font-awesome otf-droid-nerd nodejs npm pacman-contrib python-dbus
+ttf-font-awesome otf-droid-nerd nodejs npm pacman-contrib python-dbus tmux fzf
 ```
+## Install
+chezmoi init https://github.com/chosegood/dotfiles.git
 
 ## Spotify
 store --label=spotifyd application rust-keyring service spotifyd username myuser password mypassword
