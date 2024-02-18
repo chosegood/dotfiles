@@ -9,10 +9,30 @@ makepkg -si
 ```
 
 ```bash
-paru -S bat chezmoi neovim nodejs npm alacritty colordiff xsel zsh \
-zsh-syntax-highlighting starship awesome-terminal-fonts ttf-firacode-nerd \
-ttf-hack-nerd ttf-jetbrains-mono-nerd ttf-sourcecodepro-nerd ttf-dejavu-nerd \
-ttf-font-awesome otf-droid-nerd nodejs npm pacman-contrib python-dbus tmux fzf
+paru -S \
+  alacritty \
+  awesome-terminal-fonts \
+  bat \
+  chezmoi \
+  colordiff \
+  fzf \
+  neovim \
+  nodejs \
+  npm \
+  otf-droid-nerd \
+  pacman-contrib \
+  python-dbus \
+  starship \
+  tmux \
+  ttf-dejavu-nerd \
+  ttf-firacode-nerd \
+  ttf-font-awesome \
+  ttf-hack-nerd \
+  ttf-jetbrains-mono-nerd \
+  ttf-sourcecodepro-nerd \
+  xsel \
+  zsh \
+  zsh-syntax-highlighting
 ```
 ## Install
 chezmoi init https://github.com/chosegood/dotfiles.git
