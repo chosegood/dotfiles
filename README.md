@@ -2,14 +2,14 @@
 
 ## Required Packages
 ```bash
-pacman -S base-devel git
+pacman -S base-devel git cargo
 git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
 ```
 
 ```bash
-paru -S chezmoi cargo neovim nodejs npm alacritty colordiff xsel zsh \
+paru -S chezmoi neovim nodejs npm alacritty colordiff xsel zsh \
 zsh-syntax-highlighting starship awesome-terminal-fonts ttf-firacode-nerd \
 ttf-hack-nerd ttf-jetbrains-mono-nerd ttf-sourcecodepro-nerd ttf-dejavu-nerd \
 ttf-font-awesome otf-droid-nerd nodejs npm pacman-contrib python-dbus
