@@ -4,6 +4,8 @@ require("mason-lspconfig").setup({
 })
 
 require("lspconfig").lua_ls.setup {}
+require("lspconfig").gopls.setup {}
 require("lspconfig").jdtls.setup {}
 require("lspconfig").kotlin_language_server.setup {}
+require("lspconfig").rust_analyzer.setup {}
 require("lspconfig").tsserver.setup {}
