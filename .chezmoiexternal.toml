@@ -1,5 +1,9 @@
 [".themes/Nordic"]
   type = "git-repo"
   url = "https://github.com/EliverLara/Nordic.git"
-  refreshPeriod = "168h"
+  refreshPeriod = "48h"
 
+[".config/nvim"]
+    type = "git-repo"
+    url = "https://github.com/chosegood/kickstart.nvim"
+    refreshPeriod = "8h"
