@@ -1,4 +1,8 @@
-import = ["/home/chris/.config/alacritty/nord.toml", "/home/chris/.config/alacritty/source_code_pro.toml"]
+import = [
+  # "~/.config/alacritty/nord.toml", 
+  "~/.config/alacritty/catppuccin-mocha.toml"
+  "~/.config/alacritty/source_code_pro.toml"
+]
 live_config_reload = true
 
 [colors]
@@ -6,6 +10,7 @@ draw_bold_text_with_bright_colors = true
 
 [env]
 TERM = "alacritty"
+# TERM = "xterm-256color"
 
 [[keyboard.bindings]]
 action = "ToggleFullscreen"
