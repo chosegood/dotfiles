@@ -1,6 +1,6 @@
 import = [
   # "~/.config/alacritty/nord.toml", 
-  "~/.config/alacritty/catppuccin-mocha.toml"
+  "~/.config/alacritty/catppuccin-mocha.toml",
   "~/.config/alacritty/source_code_pro.toml"
 ]
 live_config_reload = true
