@@ -1,5 +1,10 @@
 # My Dotfiles
 
+Chucking this here
+```bash
+sudo localectl set-x11-keymap gb '' '' ctrl:nocaps
+```
+
 ## Required Packages
 ```bash
 pacman -S base-devel git cargo
