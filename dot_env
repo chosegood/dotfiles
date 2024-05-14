@@ -4,6 +4,7 @@ alias pbpaste='xsel --clipboard --output'
 alias v='nvim'
 alias vi='nvim'
 alias vim='nvim'
+alias fv='nvim $(fzf --preview="cat {}")'
 
 alias k='kubectl'
 
