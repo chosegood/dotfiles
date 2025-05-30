@@ -45,8 +45,10 @@ paru -S \
 chezmoi init https://github.com/chosegood/dotfiles.git
 
 ## nvim
-Done as part of the setup but to setup manually
+Done as part of the setup but to perform manually
+```bash
 git clone git@github.com:chosegood/kickstart.nvim.git ~/.config/nvim
+```
 
 ## Spotify
 store --label=spotifyd application rust-keyring service spotifyd username myuser password mypassword
