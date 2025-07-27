@@ -2,3 +2,5 @@
 .DS_Store
 .svn
 vim/.netrwhist
+external/
+.config/kitty/themes/ # if you copied themes directly
