@@ -4,3 +4,6 @@
 [submodule "external/catppuccin-waybar"]
 	path = external/catppuccin-waybar
 	url = https://github.com/catppuccin/waybar.git
+[submodule "external/catppuccin-hyprland"]
+	path = external/catppuccin-hyprland
+	url = https://github.com/catppuccin/hyprland.git
