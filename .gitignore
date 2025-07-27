@@ -2,6 +2,6 @@
 .DS_Store
 .svn
 vim/.netrwhist
-external/
 .config/kitty/themes/ # if you copied themes directly
 .config/waybar/themes/ # if you copied themes directly
+.config/hyprland/themes/ # if you copied themes directly
