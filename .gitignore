@@ -4,3 +4,4 @@
 vim/.netrwhist
 external/
 .config/kitty/themes/ # if you copied themes directly
+.config/waybar/themes/ # if you copied themes directly
