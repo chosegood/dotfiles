@@ -7,7 +7,7 @@ sudo localectl set-x11-keymap gb '' '' ctrl:nocaps
 
 ## Required Packages
 ```bash
-pacman -S base-devel git cargo
+pacman -S base-devel git cargo sass
 git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
@@ -53,3 +53,6 @@ git clone git@github.com:chosegood/kickstart.nvim.git ~/.config/nvim
 ## Spotify
 store --label=spotifyd application rust-keyring service spotifyd username myuser password mypassword
 systemctl --user enable spotifyd.service --now
+
+## TODO
+Build swaync theme
